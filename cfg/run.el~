@@ -1,0 +1,4 @@
+(evil-mode t)
+(global-evil-leader-mode)
+
+

@@ -1,0 +1,5 @@
+(evil-leader/set-leader "<SPC>")
+(evil-leader/set-key
+  "f" 'find-file
+  "b" 'switch-to-buffer
+  "k" 'kill-buffer)

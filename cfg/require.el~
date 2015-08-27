@@ -1,0 +1,11 @@
+(ensure-package-installed 'evil-leader
+                          'projectile
+                          'magit
+                          'ace-jump-mode
+                          'evil)
+
+(require 'evil-leader)
+(require 'evil)
+(require 'ace-jump-mode)
+
+
