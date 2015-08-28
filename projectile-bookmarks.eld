@@ -1,1 +1,1 @@
-("~/" "~/Work/master-matlab/")
+("~/" "~/.emacs.d/" "~/Work/master-matlab/")
