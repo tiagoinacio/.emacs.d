@@ -56,4 +56,4 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 ;; Kill other buffers
 (evil-leader/set-key "on" 'kill-other-buffers)
-(evil-leader/set-key "qa" 'qall)
+(evil-leader/set-key "qa" 'save-buffers-kill-terminal)

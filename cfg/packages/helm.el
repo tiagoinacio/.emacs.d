@@ -7,7 +7,8 @@
 ;; settings
 (setq helm-quick-update t)
 (setq helm-bookmark-show-location t)
-(setq helm-buffers-fuzzy-matching t)(evil-leader/set-key "fb" 'helm-buffers-list)
+(setq helm-buffers-fuzzy-matching t)
+(evil-leader/set-key "ls" 'helm-buffers-list)
 (helm-mode 1)
 
 ;; Keybings

@@ -1,30 +1,31 @@
-(ensure-package-installed 'evil-leader
-                          'projectile
-                          'magit
+(ensure-package-installed 'ac-js2
                           'ace-jump-mode
-                          'evil
-                          'diminish
-                          'elisp-slime-nav
-                          'helm-projectile
-                          'powerline-evil
-                          'flycheck
-                          'dtrt-indent
-                          'flycheck-pos-tip
-                          'relative-line-numbers
-                          'color-theme-approximate
+                          'auto-complete
                           'autopair
+                          'color-theme-approximate
+                          'diminish
+                          'dtrt-indent
+                          'elisp-slime-nav
+                          'evil
+                          'evil-leader
                           'fill-column-indicator
-                          'rainbow-delimiters
+                          'flycheck
+                          'flycheck-pos-tip
+                          'git-gutter
+                          'helm-projectile
+                          'js2-mode
+                          'js2-refactor
+                          'magit
+                          'magit
                           'neotree
                           'ov
-                          'js2-mode
-                          'ac-js2
-                          'yasnippet
-                          'auto-complete
-                          'js2-refactor
+                          'powerline-evil
+                          'projectile
+                          'rainbow-delimiters
+                          'relative-line-numbers
                           'tern
-                          'tern-auto-complete)
-
+                          'tern-auto-complete
+                          'yasnippet)
 
 (require 'evil-leader)
 (global-evil-leader-mode)
