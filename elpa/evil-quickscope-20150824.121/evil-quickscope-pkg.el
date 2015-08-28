@@ -1,0 +1,1 @@
+(define-package "evil-quickscope" "20150824.121" "Highlight unique characters in words for f,F,t,T navigation" '((evil "0")) :url "http://github.com/blorbx/evil-quickscope" :keywords '("faces" "emulation" "vim" "evil"))

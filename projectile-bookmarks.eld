@@ -1,1 +1,1 @@
-("~/" "~/.emacs.d/" "~/Work/master-matlab/")
+("~/.emacs.d/" "~/Work/betfair/bf-edw-static-client-nj/" "~/.vim/" "~/" "~/Work/master-matlab/")

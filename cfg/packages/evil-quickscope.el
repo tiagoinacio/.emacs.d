@@ -1,0 +1,7 @@
+(require 'evil-quick-scope)
+(add-hook 'text-mode-hook 'evil-quick-scope-mode)
+(add-hook 'prog-mode-hook 'evil-quick-scope-mode)
+;; (global-evil-quickscope-always-mode 1)
+;; (global-evil-quickscope-mode 1)
+;; (add-hook 'prog-mode-hook 'turn-on-evil-quickscope-always-mode)
+;; (add-hook 'prog-mode-hook 'turn-on-evil-quickscope-mode)

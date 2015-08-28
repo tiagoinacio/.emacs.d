@@ -1,2 +1,12 @@
 ;;; -*- coding: utf-8 -*-
-nil
+(("/Users/tiagoinacio/.emacs.d/cfg/mappings.el" . 2316)
+ ("/Users/tiagoinacio/.emacs.d/cfg/packages/evil.el" . 25)
+ ("/Users/tiagoinacio/.emacs.d/cfg/packages/evil-quickscope.el" . 128)
+ ("/Users/tiagoinacio/.emacs.d/cfg/packages/ace-jump.el" . 77)
+ ("/Users/tiagoinacio/.emacs.d/cfg/require.el" . 775)
+ ("/Users/tiagoinacio/.vim/cfg/bundle.vim" . 356)
+ ("/Users/tiagoinacio/.emacs.d/cfg/packages/helm.el" . 389)
+ ("/Users/tiagoinacio/.emacs.d/cfg/packages/elisp-slim-nav.el" . 27)
+ ("/Users/tiagoinacio/.emacs.d/cfg/packages/neotree.el" . 61)
+ ("/Users/tiagoinacio/.emacs" . 167)
+ ("/Users/tiagoinacio/.emacs.d/elpa/evil-20150818.1313/evil-maps.el" . 26933))

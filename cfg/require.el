@@ -14,12 +14,12 @@
                           'color-theme-approximate
                           'autopair
                           'fill-column-indicator
-                          'rainbow-delimiters)
+                          'rainbow-delimiters
+                          'neotree
+                          'ov)
 
 (require 'evil-leader)
 (global-evil-leader-mode)
-(require 'iso-transl)
 (require 'evil)
-(require 'ace-jump-mode)
-(require 'elisp-slime-nav)
+(evil-mode 1)
 

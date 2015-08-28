@@ -13,13 +13,7 @@
                         (evil-scroll-down nil)))
 
 ;; Delete Line
-(defun evil-delete-visual-line ()
-  (interactive)
-  (let ((beg (progn (beginning-of-visual-line) (point)))
-        (end (progn (end-of-visual-line) (point))))
-    (evil-delete beg end)))
-
-(define-key evil-normal-state-map "_" 'evil-delete-visual-line)
+(define-key evil-normal-state-map "_" 'evil-delete-whole-line)
 
 ;; Wrapped Lines
 (define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
@@ -50,5 +44,12 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 ;; Leader
 (define-key evil-normal-state-map "," 'evil-ex)
 
+;; Switch Buffers
+(define-key evil-normal-state-map "-" 'switch-to-previous-buffer)
+(define-key evil-normal-state-map "+" 'switch-to-next-buffer)
 
-
+;; Navigate through lines
+(define-key evil-normal-state-map "J"
+                (lambda () (interactive) (next-line 3)))
+(define-key evil-normal-state-map "K"
+                (lambda () (interactive) (previous-line 3)))

@@ -1,2 +1,1 @@
-(evil-mode t)
-
+(setq evil-esc-delay 0)
