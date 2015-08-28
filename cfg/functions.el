@@ -39,3 +39,16 @@
                     (switch-to-buffer-other-window (car (cdr buffers)))
                     (setq buffers (cdr buffers)))
                 (setq screens (cdr screens))))))
+
+;; Kill tern server
+(defun delete-tern-process ()
+  (interactive)
+    (delete-process "Tern"))
+
+;; Delete all other buffers
+(defun kill-other-buffers ()
+  "Kill all other buffers."
+  (interactive)
+  (mapc 'kill-buffer
+        (delq (current-buffer)
+                              (remove-if-not 'buffer-file-name (buffer-list)))))

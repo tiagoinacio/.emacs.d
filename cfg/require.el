@@ -16,7 +16,15 @@
                           'fill-column-indicator
                           'rainbow-delimiters
                           'neotree
-                          'ov)
+                          'ov
+                          'js2-mode
+                          'ac-js2
+                          'yasnippet
+                          'auto-complete
+                          'js2-refactor
+                          'tern
+                          'tern-auto-complete)
+
 
 (require 'evil-leader)
 (global-evil-leader-mode)

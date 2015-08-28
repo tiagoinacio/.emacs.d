@@ -1,0 +1,12 @@
+((("evil-search-forward" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("powerline-evil-vim-color-theme" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("powerline-evil" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("etags" .
+   [2 0 0 0 0])
+  ("powerline-center-theme" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("evil-leader/set-key" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])))

@@ -8,6 +8,9 @@
 
 (global-flycheck-mode t)
 
+(add-hook 'js-mode-hook
+          (lambda () (flycheck-mode t)))
+
 ;; flycheck errors on a tooltip (doesnt work on console)
 (when (display-graphic-p (selected-frame))
     (custom-set-variables

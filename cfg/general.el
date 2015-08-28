@@ -27,3 +27,7 @@
 
 ;; Remove scrollbar
 (scroll-bar-mode -1)
+
+;; File Types
+(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+(setq mode-line-format nil)

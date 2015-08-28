@@ -53,3 +53,7 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
                 (lambda () (interactive) (next-line 3)))
 (define-key evil-normal-state-map "K"
                 (lambda () (interactive) (previous-line 3)))
+
+;; Kill other buffers
+(evil-leader/set-key "on" 'kill-other-buffers)
+(evil-leader/set-key "qa" 'qall)
