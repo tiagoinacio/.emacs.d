@@ -11,18 +11,17 @@
                           'fill-column-indicator
                           'flycheck
                           'flycheck-pos-tip
-                          'git-gutter
+                          'diff-hl
                           'helm-projectile
                           'js2-mode
                           'js2-refactor
-                          'magit
                           'magit
                           'neotree
                           'ov
                           'powerline-evil
                           'projectile
                           'rainbow-delimiters
-                          'relative-line-numbers
+                          'linum-relative
                           'tern
                           'tern-auto-complete
                           'yasnippet)
