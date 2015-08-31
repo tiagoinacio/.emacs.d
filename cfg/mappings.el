@@ -70,3 +70,6 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (evil-leader/set-key "hw" 'split-window-below)
 (evil-leader/set-key "wdd" 'delete-window)
 (evil-leader/set-key "wda" 'delete-other-windows)
+
+;; Reload configuration
+(evil-leader/set-key "re" 'eval-buffer)

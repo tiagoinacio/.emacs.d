@@ -2,7 +2,7 @@
                           'ace-jump-mode
                           'auto-complete
                           'autopair
-                          'color-theme-approximate
+                          'color-theme
                           'diminish
                           'dtrt-indent
                           'elisp-slime-nav
@@ -12,14 +12,14 @@
                           'flycheck
                           'flycheck-pos-tip
                           'diff-hl
+                          'powerline-evil
                           'helm-projectile
                           'helm-swoop
-                          'js2-mode
+                          'etags
                           'js2-refactor
                           'magit
                           'neotree
                           'ov
-                          'powerline-evil
                           'projectile
                           'rainbow-delimiters
                           'linum-relative
@@ -29,7 +29,9 @@
                           'tern-auto-complete
                           'ace-window
                           'ace-isearch
+                          'sublime-themes
                           'yasnippet)
+
 
 (require 'evil-leader)
 (global-evil-leader-mode)

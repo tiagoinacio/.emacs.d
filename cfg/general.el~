@@ -1,3 +1,0 @@
-(setq enable-recursive-minibuffers t)
-(define-key KEYMAP "<SPC>" nil)
-

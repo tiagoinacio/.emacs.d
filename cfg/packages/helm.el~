@@ -1,5 +1,0 @@
-(evil-leader/set-key "fb" 'helm-buffers-list)
-(evil-leader/set-key "ff" 'helm-projectile-find-file)
-(evil-leader/set-key "bo" 'helm-bookmarks)
-
-(define-key evil-normal-state-map (kbd ",") (kbd ":"))

@@ -1,3 +1,3 @@
-(require 'powerline-evil)
-(display-time-mode t)
+(require 'powerline)
+(require 'cl)
 (powerline-center-theme)

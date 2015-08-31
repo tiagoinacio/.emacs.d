@@ -1,5 +1,0 @@
-(ensure-package-installed 'evil
-                          'projectile
-                          'magit
-                          'ace-jump-mode)
-

@@ -1,4 +1,16 @@
-((("forward-char" .
+((("getMinifiedContent" .
+   [0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+  ("content" .
+   [3 0 0 0 0 0 0])
+  ("getOutputPath" .
+   [0 0 0 0 0 0 0 1 0 1 0 0 0])
+  ("isValidSchema" .
+   [1 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("load-theme" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("color-theme-eclipse" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("forward-char" .
    [0 0 0 0 0 1 0 0 0 0 0 0])
   ("n" .
    [1])
@@ -19,7 +31,7 @@
   ("fi" .
    [1 0])
   ("evil-leader/set-key" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
   ("powerline-center-theme" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("etags" .
@@ -39,4 +51,20 @@
   ("matlab-mode" .
    [1 0 0 0 0 0 0 0 0 0 0])
   ("git-gutter" .
-   [1 0 0 0 0 0 0 0 0 0])))
+   [2 0 0 0 0 0 0 0 0 0])
+  ("conf" .
+   [1 0 0 0])
+  ("eval-buffer" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("git-gutter-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [1 0 0 0])
+  ("linum-format" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("global-diff-hl-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("require" .
+   [2 0 0 0 0 0 0])
+  ("powerline-evil-center-color-theme" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))

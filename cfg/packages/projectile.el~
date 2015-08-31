@@ -1,2 +1,0 @@
-(setq projectile-enable-caching t)
-(helm-projectile-on)
