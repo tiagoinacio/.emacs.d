@@ -1,0 +1,67 @@
+{
+    "content": {
+        "threeBannerDisplay": {
+            "bannerTwo": {
+                "bannerTitleEDW": "Banner 2",
+                "bannerAlt": "Banner 2",
+                "bannerMobile": "\/intl\/ALL_REGIONS\/ALL_TRUEVALUES\/en\/umbrellaPage\/banner.jpg",
+                "bannerDesktop": "\/intl\/ALL_REGIONS\/ALL_TRUEVALUES\/en\/umbrellaPage\/banner.jpg"
+            },
+            "bannerOne": {
+                "promotedButton": {
+                    "url": null,
+                    "exUSCookie": null,
+                    "target": "_top",
+                    "text": "Banner 1 promoted"
+                },
+                "actionButton": {
+                    "url": null,
+                    "exUSCookie": null,
+                    "target": "_blank",
+                    "text": "Banner 1 action"
+                },
+                "bannerTitleEDW": "Banner 1",
+                "bannerAlt": "Banner 1",
+                "bannerMobile": "\/intl\/ALL_REGIONS\/ALL_TRUEVALUES\/en\/umbrellaPage\/banner.jpg",
+                "bannerDesktop": "\/intl\/ALL_REGIONS\/ALL_TRUEVALUES\/en\/umbrellaPage\/banner.jpg"
+            },
+            "bannerThree": {
+                "promotedButton": {
+                    "url": "\/promoted",
+                    "exUSCookie": "EXC",
+                    "target": "_top",
+                    "text": "Banner 3 promoted"
+                },
+                "actionButton": {
+                    "url": "\/banner3",
+                    "exUSCookie": "4NJ",
+                    "target": "_blank",
+                    "text": "Banner 3 action"
+                },
+                "bannerAlt": "Banner 3",
+                "bannerMobile": "\/intl\/ALL_REGIONS\/ALL_TRUEVALUES\/en\/umbrellaPage\/banner.jpg",
+                "bannerDesktop": "\/intl\/ALL_REGIONS\/ALL_TRUEVALUES\/en\/umbrellaPage\/banner.jpg"
+            }
+        },
+        "header": {
+            "brandLogo": "\/intl\/ALL_REGIONS\/ALL_TRUEVALUES\/en\/umbrellaPage\/logo-betfair.png",
+            "navHomeTab": {
+                "url": "\/home",
+                "tabName": "Home",
+                "imageAlt": "Home"
+            },
+            "brandLogoPhone": "\/intl\/ALL_REGIONS\/ALL_TRUEVALUES\/en\/umbrellaPage\/logo-betfair.png",
+            "brandLogoAlt": "Home",
+            "brandUrl": "http:\/\/www.betfair.com",
+            "navMenu": {
+                "url": "\/hr-simulator",
+                "tabName": "Simulator",
+                "target": "_blank"
+            }
+        },
+        "findOutMoreText": null,
+        "customDimensions": {
+            "variant": "5",
+            "language": "es"
+        }
+    }

@@ -1,0 +1,33 @@
+{
+    "content": {
+        "safeAndLegalAlt": "alt text",
+        "safeAndLegal":"/umbrellaPage/badge-legal.png",
+        "customDimensions": {
+            "language":"en",
+            "variant":"5"
+        },
+        "welcomeText":"Welcome to Betfair USA",
+        "findOutMoreText":null,
+        "header": {
+            "navMenu": {
+                "target":"_blank",
+                "tabName":"Simulator",
+                "url":"/hr-simulator"
+            },
+            "brandUrl":"http://www.betfair.com",
+            "brandLogoAlt":"Home",
+            "brandLogoPhone":"/intl/ALL_REGIONS/ALL_TRUEVALUES/en/umbrellaPage/logo-betfair.png",
+            "navHomeTab": {
+                "imageAlt":"Home Page",
+                "tabName":"Home",
+                "url":"http://www.betfair.com"
+            },
+            "brandLogo":"/intl/ALL_REGIONS/ALL_TRUEVALUES/en/umbrellaPage/logo-betfair.png"
+        },
+        "banner": {
+            "bannerDesktop":"/intl/ALL_REGIONS/ALL_TRUEVALUES/en/umbrellaPage/banner.jpg",
+            "bannerMobile":"/intl/ALL_REGIONS/ALL_TRUEVALUES/en/umbrellaPage/main-banner@2x.jpg",
+            "bannerAlt":"Banner",
+            "bannerTitleEDW":"TVG"
+        }
+    }

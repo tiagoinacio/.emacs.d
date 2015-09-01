@@ -15,6 +15,7 @@
                           'powerline-evil
                           'helm-projectile
                           'helm-swoop
+                          'evil-visualstar
                           'etags
                           'js2-refactor
                           'magit

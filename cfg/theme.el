@@ -1,6 +1,10 @@
+;; remove startup message
 (setq inhibit-startup-message t)
+
+;; Font
 (set-face-attribute 'default nil :font "Hack")
 (set-frame-font "Hack-13" nil t)
+
 ;; (require 'color-theme-eclipse)
 (load-theme 'mccarthy t)
 
@@ -9,7 +13,7 @@
 scroll-conservatively 9999
 scroll-step 1)
 
-;; window
+;; window maximized
 (custom-set-variables
  '(initial-frame-alist (quote ((fullscreen . maximized))))) ;; start maximized
 
@@ -25,3 +29,11 @@ scroll-step 1)
 (menu-bar-mode -1) ;; Menu Bar
 (menu-bar-mode -1) ;; Scoll Bar
 (tool-bar-mode -1) ;; ToolBar
+
+;; Matching Parens
+(show-paren-mode t)
+
+;; Don't truncate lines
+(setq truncate-lines t)
+(setq truncate-partial-width-windows nil)
+

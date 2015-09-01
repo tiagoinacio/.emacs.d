@@ -1,8 +1,8 @@
-;; Window Movement
-;;(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
-;;(define-key evil-normal-state-map (kbd "C-j") 'evil-window-down)
-;;(define-key evil-normal-state-map (kbd "C-k") 'evil-window-up)
-;;(define-key evil-normal-state-map (kbd "C-l") 'evil-window-right)
+;; Leader
+(define-key evil-normal-state-map "," 'evil-ex)
+
+;; Reload configuration
+(evil-leader/set-key "re" 'eval-buffer)
 
 ;; Page Up and Page Down
 (define-key evil-normal-state-map (kbd "C-k") (lambda ()
@@ -12,12 +12,6 @@
                         (interactive)
                         (evil-scroll-down nil)))
 
-;; Delete Line
-(define-key evil-normal-state-map "_" 'evil-delete-whole-line)
-
-;; Wrapped Lines
-(define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
-(define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
 
 ;; esc quits
 (defun minibuffer-keyboard-quit ()
@@ -41,14 +35,11 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 ;; Auto Indent on every Enter
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
-;; Leader
-(define-key evil-normal-state-map "," 'evil-ex)
-
-;; Switch Buffers
-(define-key evil-normal-state-map "-" 'switch-to-prev-buffer)
-(define-key evil-normal-state-map "+" 'switch-to-next-buffer)
-
 ;; Navigate through lines
+(define-key evil-visual-state-map "J"
+  (lambda () (interactive) (next-line 3)))
+(define-key evil-visual-state-map "K"
+  (lambda () (interactive) (previous-line 3)))
 (define-key evil-normal-state-map "J"
   (lambda () (interactive) (next-line 3)))
 (define-key evil-normal-state-map "K"
@@ -57,19 +48,31 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
   (lambda () (interactive) (backward-char 3)))
 (define-key evil-normal-state-map "L"
   (lambda () (interactive) (forward-char 3)))
+;; Delete Line
+(define-key evil-normal-state-map "_" 'evil-delete-whole-line)
 
-;; Kill other buffers
+;; Wrapped Lines
+(define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
+(define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
+
+
+;; Window
+(evil-leader/set-key "vs" 'split-window-right)
+(evil-leader/set-key "hs" 'split-window-below)
+(evil-leader/set-key "wd" 'delete-window)
+(evil-leader/set-key "fu" 'toggle-frame-fullscreen)
+(evil-leader/set-key "ma" 'toggle-frame-maximized)
+
+;; Buffers
+(evil-leader/set-key "bd" 'kill-this-buffer)
+(evil-leader/set-key "ba" 'kill-some-buffers)
 (evil-leader/set-key "on" 'kill-other-buffers)
 (evil-leader/set-key "qa" 'save-buffers-kill-terminal)
 (evil-leader/set-key "ya" 'my-put-file-name-on-clipboard)
 (evil-leader/set-key "sa" 'sav!)
-(evil-leader/set-key "fd" 'helm-projectile-find-dir)
-(evil-leader/set-key "fb" 'helm-projectile-switch-to-buffer)
-(evil-leader/set-key "fp" 'helm-projectile-switch-project)
-(evil-leader/set-key "vw" 'split-window-right)
-(evil-leader/set-key "hw" 'split-window-below)
-(evil-leader/set-key "wdd" 'delete-window)
-(evil-leader/set-key "wda" 'delete-other-windows)
+(define-key evil-normal-state-map "-" 'switch-to-prev-buffer)
+(define-key evil-normal-state-map "+" 'switch-to-next-buffer)
 
-;; Reload configuration
-(evil-leader/set-key "re" 'eval-buffer)
+;; Tags
+(evil-leader/set-key "ft" 'find-tag)
+

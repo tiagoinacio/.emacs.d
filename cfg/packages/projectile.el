@@ -1,6 +1,8 @@
 (projectile-global-mode)
-
 (setq projectile-enable-caching t)
 (helm-projectile-on)
-
 (evil-leader/set-key "ff" 'helm-projectile-find-file)
+(evil-leader/set-key "fa" 'helm-projectile-ag)
+(evil-leader/set-key "fp" 'helm-projectile-switch-project)
+(evil-leader/set-key "fd" 'helm-projectile-find-dir)
+(evil-leader/set-key "fb" 'helm-projectile-switch-to-buffer)
