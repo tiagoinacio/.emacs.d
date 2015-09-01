@@ -1,6 +1,6 @@
 (setq inhibit-startup-message t)
 (set-face-attribute 'default nil :font "Hack")
-(set-frame-font "Hack-12" nil t)
+(set-frame-font "Hack-13" nil t)
 ;; (require 'color-theme-eclipse)
 (load-theme 'mccarthy t)
 

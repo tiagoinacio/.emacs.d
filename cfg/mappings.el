@@ -45,7 +45,7 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (define-key evil-normal-state-map "," 'evil-ex)
 
 ;; Switch Buffers
-(define-key evil-normal-state-map "-" 'switch-to-previous-buffer)
+(define-key evil-normal-state-map "-" 'switch-to-prev-buffer)
 (define-key evil-normal-state-map "+" 'switch-to-next-buffer)
 
 ;; Navigate through lines
