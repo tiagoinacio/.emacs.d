@@ -45,4 +45,6 @@
 
 ;; Remove whitespace on save
 (add-hook 'before-save-hook (lambda () (delete-trailing-whitespace)))
-(add-hook 'before-save-hook (lambda () (delete-trailing-lines)))
+
+;; Beyond EOL
+(setq evil-move-beyond-eol nil)

@@ -36,4 +36,3 @@ scroll-step 1)
 ;; Don't truncate lines
 (setq truncate-lines t)
 (setq truncate-partial-width-windows nil)
-

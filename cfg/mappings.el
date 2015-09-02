@@ -75,4 +75,3 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 ;; Tags
 (evil-leader/set-key "ft" 'find-tag)
-

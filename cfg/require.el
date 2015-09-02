@@ -18,6 +18,7 @@
                           'evil-visualstar
                           'etags
                           'js2-refactor
+                          'js2-mode
                           'magit
                           'neotree
                           'ov

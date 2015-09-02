@@ -1,0 +1,88 @@
+<div class="three-banner">
+    <section class="side-banner-left">
+        %%#threeBannerDisplay.bannerOne.bannerTitleEDW%%
+        <div class="title">%%threeBannerDisplay.bannerOne.bannerTitleEDW%%</div>
+        %%/threeBannerDisplay.bannerOne.bannerTitleEDW%%
+
+        <div class="banner-image">
+            <img srcset="%%threeBannerDisplay.bannerOne.bannerMobile%% 320w, %%threeBannerDisplay.bannerOne.bannerDesktop%%" alt=""/>
+        </div>
+        <div class="buttons-container">
+            %%#threeBannerDisplay.bannerOne.actionButton%%
+            <button class="button-action gatrack"
+                    target="%%threeBannerDisplay.bannerOne.actionButton.target%%"
+                    data-gacategory="Interface" data-gaaction="Clicked Go to Site" data-gad2="Promo Hub"
+                    data-gad9="Main" %%#url%% href="%%url%%" %%/url%% %%#target%% target="%%target%%" %%/target%%
+                    %%#exUSCookie%% data-exus="%%exUSCookie%%" %%/exUSCookie%% >
+            %%threeBannerDisplay.bannerOne.actionButton.text%%
+            </button>
+            %%#threeBannerDisplay.bannerOne.promotedButton%%
+            <button class="button-action gatrack"
+                    target="%%threeBannerDisplay.bannerOne.promotedButton.target%%"
+                    data-gacategory="Interface" data-gaaction="Clicked Go to Site" data-gad2="Promo Hub"
+                    data-gad9="Main" %%#url%% href="%%url%%" %%/url%% %%#target%% target="%%target%%" %%/target%%
+                    %%#exUSCookie%% data-exus="%%exUSCookie%%" %%/exUSCookie%% >
+            %%threeBannerDisplay.bannerOne.promotedButton.text%%
+            </button>
+            %%/threeBannerDisplay.bannerOne.promotedButton%%
+        </div>
+    </section>
+
+    <section class="side-banner-right">
+        %%#threeBannerDisplay.bannerTwo.bannerTitleEDW%%
+        <div class="title">%%threeBannerDisplay.bannerTwo.bannerTitleEDW%%</div>
+        %%/threeBannerDisplay.bannerTwo.bannerTitleEDW%%
+        <div class="banner-image">
+            <img srcset="%%threeBannerDisplay.bannerTwo.bannerMobile%% 320w, %%threeBannerDisplay.bannerTwo.bannerDesktop%%" alt=""/>
+        </div>
+        <div class="buttons-container">
+            %%#threeBannerDisplay.bannerTwo.actionButton%%
+            <button class="button-action gatrack"
+                    target="%%threeBannerDisplay.bannerTwo.actionButton.target%%"
+                    data-gacategory="Interface" data-gaaction="Clicked Go to Site" data-gad2="Promo Hub"
+                    data-gad9="Main" %%#url%% href="%%url%%" %%/url%% %%#target%% target="%%target%%" %%/target%%
+            %%#exUSCookie%% data-exus="%%exUSCookie%%" %%/exUSCookie%% >
+            %%threeBannerDisplay.bannerTwo.actionButton.text%%
+            </button>
+            %%#threeBannerDisplay.bannerTwo.promotedButton%%
+            <button class="button-action gatrack"
+                    target="%%threeBannerDisplay.bannerTwo.promotedButton.target%%"
+                    data-gacategory="Interface" data-gaaction="Clicked Go to Site" data-gad2="Promo Hub"
+                    data-gad9="Main" %%#url%% href="%%url%%" %%/url%% %%#target%% target="%%target%%" %%/target%%
+            %%#exUSCookie%% data-exus="%%exUSCookie%%" %%/exUSCookie%% >
+            %%threeBannerDisplay.bannerTwo.promotedButton.text%%
+            </button>
+            %%/threeBannerDisplay.bannerTwo.promotedButton%%
+        </div>
+    </section>
+
+    <section class="side-banner-bottom">
+        %%#threeBannerDisplay.bannerThree.bannerTitleEDW%%
+        <div class="title">%%threeBannerDisplay.bannerThree.bannerTitleEDW%%</div>
+        %%/threeBannerDisplay.bannerThree.bannerTitleEDW%%
+        <div class="banner-image">
+            <img srcset="%%threeBannerDisplay.bannerThree.bannerMobile%% 320w, %%threeBannerDisplay.bannerThree.bannerDesktop%%" alt=""/>
+        </div>
+        <div class="buttons-container">
+            %%#threeBannerDisplay.bannerThree.actionButton%%
+            <button class="button-action gatrack"
+                    target="%%threeBannerDisplay.bannerThree.actionButton.target%%"
+                    data-gacategory="Interface" data-gaaction="Clicked Go to Site" data-gad2="Promo Hub"
+                    data-gad9="Main" %%#url%% href="%%url%%" %%/url%% %%#target%% target="%%target%%" %%/target%%
+            %%#exUSCookie%% data-exus="%%exUSCookie%%" %%/exUSCookie%% >
+            %%threeBannerDisplay.bannerThree.actionButton.text%%
+            </button>
+            %%#threeBannerDisplay.bannerThree.promotedButton%%
+            <button class="button-action gatrack"
+                    target="%%threeBannerDisplay.bannerThree.promotedButton.target%%"
+                    data-gacategory="Interface" data-gaaction="Clicked Go to Site" data-gad2="Promo Hub"
+                    data-gad9="Main" %%#url%% href="%%url%%" %%/url%% %%#target%% target="%%target%%" %%/target%%
+            %%#exUSCookie%% data-exus="%%exUSCookie%%" %%/exUSCookie%% >
+            %%threeBannerDisplay.bannerThree.promotedButton.text%%
+            </button>
+            %%/threeBannerDisplay.bannerThree.promotedButton%%
+        </div>
+    </section>
+
+
+</div>

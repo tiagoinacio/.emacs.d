@@ -5,4 +5,4 @@
 ;;       \ --ignore .hg
 ;;       \ --ignore .DS_Store"))
 (custom-set-variables
-  '(helm-ag-base-command "ag --nogroup --hidden --ignore-case -C 1"))
+  '(helm-ag-base-command "ag --nogroup --nocolor --hidden --ignore-case -C 1"))
