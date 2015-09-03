@@ -32,7 +32,7 @@ lines downward first."
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("7545d3bb77926908aadbd525dcb70256558ba05d7c478db6386bfb37fb6c9120" "3cd28471e80be3bd2657ca3f03fbb2884ab669662271794360866ab60b6cb6e6" default)))
+    ("9f3a4edb56d094366afed2a9ba3311bbced0f32ca44a47a765d8ef4ce5b8e4ea" "5d8caed7f4ed8929fd79e863de3a38fbb1aaa222970b551edfd2e84552fec020" "7545d3bb77926908aadbd525dcb70256558ba05d7c478db6386bfb37fb6c9120" "3cd28471e80be3bd2657ca3f03fbb2884ab669662271794360866ab60b6cb6e6" default)))
  '(helm-ag-base-command "ag --nogroup --nocolor --hidden --ignore-case -C 1")
  '(initial-frame-alist (quote ((fullscreen . maximized)))))
 (custom-set-faces

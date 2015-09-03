@@ -1,4 +1,7 @@
 elpa/
+ac-comphist.dat
+/saveplace
 projectile-bookmarks.eld
 backups/
 auto-save-list/
+projectile.cache

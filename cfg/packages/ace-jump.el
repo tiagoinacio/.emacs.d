@@ -3,3 +3,4 @@
 (evil-leader/set-key "/" 'evil-ace-jump-char-mode)
 (evil-leader/set-key "se" 'evil-search-forward)
 (define-key evil-normal-state-map [backspace] 'evil-ace-jump-word-mode)
+(define-key evil-motion-state-map [backspace] 'evil-ace-jump-word-mode)
