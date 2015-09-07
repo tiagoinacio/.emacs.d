@@ -1,5 +1,6 @@
 (ensure-package-installed 'ac-js2
                           'ace-jump-mode
+                          'auto-complete-clang
                           'auto-complete
                           'autopair
                           'color-theme

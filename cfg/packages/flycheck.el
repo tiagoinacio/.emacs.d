@@ -1,5 +1,6 @@
 (require 'flycheck)
 (add-hook 'after-init-hook #'global-flycheck-mode)
+(add-hook 'find-file-hook 'flymake-find-file-hook)
 
 (setq flycheck-check-syntax-automatically '(save mode-enabled))
 (setq flycheck-checkers (delq 'emacs-lisp-checkdoc flycheck-checkers))

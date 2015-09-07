@@ -1,5 +1,5 @@
 (projectile-global-mode)
-(setq projectile-enable-caching t)
+(setq projectile-enable-caching nil)
 (helm-projectile-on)
 (evil-leader/set-key "ff" 'helm-projectile-find-file)
 (evil-leader/set-key "fa" 'helm-projectile-ag)
