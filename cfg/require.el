@@ -19,6 +19,7 @@
                           'evil-visualstar
                           'etags
                           'js2-refactor
+                          'flymake-json
                           'js2-mode
                           'magit
                           'neotree

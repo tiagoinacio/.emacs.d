@@ -9,10 +9,7 @@
 (my-load-all-in-directory "~/.emacs.d/cfg/packages/")
 (load-file "~/.emacs.d/cfg/mappings.el")
 (load-file "~/.emacs.d/cfg/buffers.el")
-(load-file "~/.emacs.d/cfg/theme.el")
-
-
-;; $ and g$ behaviour
+(load-file "~/.emacs.d/cfg/theme.el") ;; $ and g$ behaviour
 (evil-define-motion evil-last-non-blank (count)
   "Move the cursor to the last non-blank character
 on the current line. If COUNT is given, move COUNT - 1
@@ -23,6 +20,7 @@ lines downward first."
   (setq evil-this-type (if (eolp) 'exclusive 'inclusive)))
 (define-key evil-motion-state-map "g$" 'evil-end-of-line)
 (define-key evil-motion-state-map "$" 'evil-last-non-blank)
+<<<<<<< Updated upstream
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -39,3 +37,5 @@ lines downward first."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:background nil)))))
+=======
+>>>>>>> Stashed changes
