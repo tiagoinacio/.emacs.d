@@ -82,3 +82,9 @@
         (insert filename)
         (clipboard-kill-region (point-min) (point-max)))
             (message filename))))
+
+;; don't prompt when finding a tag
+(defun find-tag-no-prompt ()
+  "Jump to the tag at point without prompting"
+  (interactive)
+  (find-tag (find-tag-default)))

@@ -9,3 +9,13 @@
 (defun my-indent-setup ()
   (c-set-offset 'arglist-intro '+))
     (add-hook 'java-mode-hook 'my-indent-setup)
+
+(setq cc-other-file-alist
+	  '(("\\.c"   (".h"))
+		("\\.cpp"   (".h"))
+		("\\.h"   (".c"".cpp"))))
+
+(setq ff-search-directories
+	        '("." "../src" "../include"))
+
+(evil-leader/set-key "fr" 'ff-find-other-file)

@@ -75,3 +75,6 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 ;; Tags
 (evil-leader/set-key "ft" 'find-tag)
+
+;; don't prompt when finding a tag
+(evil-leader/set-key "fw" 'find-tag-no-prompt)
