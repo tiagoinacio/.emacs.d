@@ -5,7 +5,6 @@
                           'autopair
                           'color-theme
                           'diminish
-                          'dtrt-indent
                           'elisp-slime-nav
                           'evil
                           'evil-leader
