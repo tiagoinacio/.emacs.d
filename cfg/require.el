@@ -24,6 +24,7 @@
                           'neotree
                           'ov
                           'projectile
+						  'w3
                           'rainbow-delimiters
                           'linum-relative
                           'git-gutter
