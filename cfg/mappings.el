@@ -48,13 +48,16 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
   (lambda () (interactive) (backward-char 3)))
 (define-key evil-normal-state-map "L"
   (lambda () (interactive) (forward-char 3)))
+
+;; Camel Case Motion
+(define-key evil-normal-state-map "´" 'subword-forward)
+
 ;; Delete Line
 (define-key evil-normal-state-map "_" 'evil-delete-whole-line)
 
 ;; Wrapped Lines
 (define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
 (define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
-
 
 ;; Window
 (evil-leader/set-key "vs" 'split-window-right)

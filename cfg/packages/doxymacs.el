@@ -7,8 +7,6 @@
      (doxymacs-font-lock)))
 (add-hook 'font-lock-mode-hook 'my-doxymacs-font-lock-hook)
 
-GENERATE_TAGFILE = ~/tmp/doxy.tag
-
 (evil-leader/set-key "do" 'doxymacs-insert-function-comment)
 
 ;; press enter and insert an asterisk automatically
