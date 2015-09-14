@@ -81,3 +81,6 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 ;; don't prompt when finding a tag
 (evil-leader/set-key "fw" 'find-tag-no-prompt)
+
+;; camelcase to _
+(evil-leader/set-key "ca" 'toggle-camelcase-underscores)
