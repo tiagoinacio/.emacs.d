@@ -2,11 +2,13 @@
 (setq inhibit-startup-message t)
 
 ;; Font
-(set-face-attribute 'default nil :font "Hack")
-(set-frame-font "Hack-13" nil t)
+;;(set-face-attribute 'default nil :font "Hack")
+(setq default-frame-alist '((font . "Hack-14")))
+(set-frame-font "Hack-14" nil t)
 
 ;; (require 'color-theme-eclipse)
 (load-theme 'mccarthy t)
+(add-to-list 'default-frame-alist '(background-mode . light))
 
 ;; scroll
 (setq scroll-margin 5

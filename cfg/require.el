@@ -7,9 +7,9 @@
  'auto-complete-clang
  'autopair
  'centered-cursor-mode
- 'color-theme
  'diff-hl
  'diminish
+ 'rainbow-mode
  'elisp-slime-nav
  'etags
  'evil
