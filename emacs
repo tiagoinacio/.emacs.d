@@ -29,8 +29,9 @@ lines downward first."
    [default bold shadow italic underline bold bold-italic bold])
  '(custom-safe-themes
    (quote
-	("28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "4cc014287035b11d1f8d45af1ff18f3509496a760650d16c7771ac9bdf16b1a6" default)))
+	("108b3724e0d684027c713703f663358779cc6544075bc8fd16ae71470497304f" "3b0a350918ee819dca209cec62d867678d7dac74f6195f5e3799aa206358a983" "9122dfb203945f6e84b0de66d11a97de6c9edf28b3b5db772472e4beccc6b3c5" "a3132bd39a977ddde4c002f8bd0ef181414c3fbe9228e3643b999491192680ad" "6ebb2401451dc6d01cd761eef8fe24812a57793c5ccc427b600893fa1d767b1d" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "4cc014287035b11d1f8d45af1ff18f3509496a760650d16c7771ac9bdf16b1a6" default)))
  '(fci-rule-color "#121212")
+ '(flycheck-display-errors-function (function flycheck-pos-tip-error-messages))
  '(helm-ag-base-command "ag --nogroup --nocolor --hidden --ignore-case -C 1")
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(vc-annotate-background nil)
@@ -60,4 +61,4 @@ lines downward first."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:background nil)))))
+ )
