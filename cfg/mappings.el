@@ -76,6 +76,9 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (define-key evil-normal-state-map "-" 'switch-to-prev-buffer)
 (define-key evil-normal-state-map "+" 'switch-to-next-buffer)
 
+;; Frame
+(evil-leader/set-key "sw" 'other-frame)
+
 ;; Tags
 (evil-leader/set-key "ft" 'find-tag)
 
@@ -84,3 +87,8 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 ;; camelcase to _
 (evil-leader/set-key "ca" 'toggle-camelcase-underscores)
+
+;; fix brackets insert
+(setq mac-option-modifier nil
+      mac-command-modifier 'meta
+      x-select-enable-clipboard t)

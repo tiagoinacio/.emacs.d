@@ -13,6 +13,7 @@
 
 ;; Keybings
 (evil-leader/set-key "ff" 'helm-projectile-find-file)
+(evil-leader/set-key "fc" 'helm-find-files)
 (evil-leader/set-key "bo" 'helm-bookmarks)
 (evil-leader/set-key "wo" 'evil-ace-jump-word-mode)
 (evil-leader/set-key "ca" 'evil-ace-jump-char-mode)
@@ -32,4 +33,3 @@
                        helm-c-source-recentf
                        helm-c-source-locate)
                      "*helm-my-buffers*")))
-

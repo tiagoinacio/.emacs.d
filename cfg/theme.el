@@ -3,8 +3,8 @@
 
 ;; Font
 ;;(set-face-attribute 'default nil :font "Hack")
-(setq default-frame-alist '((font . "Hack-14")))
-(set-frame-font "Hack-14" nil t)
+(setq default-frame-alist '((font . "Hack-13")))
+(set-frame-font "Hack-13" nil t)
 
 ;; (require 'color-theme-eclipse)
 (load-theme 'mccarthy t)

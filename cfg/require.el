@@ -19,6 +19,7 @@
  'flycheck
  'flycheck-pos-tip
  'flymake-json
+ 'minimap
  'git-gutter
  'git-gutter-fringe
  'helm-projectile
