@@ -12,6 +12,9 @@
                         (interactive)
                         (evil-scroll-down nil)))
 
+;; Mouse
+(global-set-key [C-S-mouse-1] 'find-tag-no-prompt)
+;; (global-set-key [down-mouse-3] 'menu-choice)
 
 ;; esc quits
 (defun minibuffer-keyboard-quit ()
@@ -31,9 +34,6 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (define-key minibuffer-local-must-match-map [escape] 'minibuffer-keyboard-quit)
 (define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
 (global-set-key [escape] 'evil-exit-emacs-state)
-
-;; Auto Indent on every Enter
-(define-key global-map (kbd "RET") 'newline-and-indent)
 
 ;; Navigate through lines
 (define-key evil-visual-state-map "J"

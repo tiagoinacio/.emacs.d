@@ -1,2 +1,2 @@
-(require 'powerline)
-(powerline-center-evil-theme)
+;;(require 'powerline)
+;;(powerline-center-evil-theme)

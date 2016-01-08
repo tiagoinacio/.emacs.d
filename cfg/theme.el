@@ -3,12 +3,13 @@
 
 ;; Font
 ;;(set-face-attribute 'default nil :font "Hack")
-(setq default-frame-alist '((font . "Hack-13")))
-(set-frame-font "Hack-13" nil t)
+(setq default-frame-alist '((font . "Hack-12")))
+(set-frame-font "Hack-12" nil t)
 
 ;; (require 'color-theme-eclipse)
-(load-theme 'mccarthy t)
-(add-to-list 'default-frame-alist '(background-mode . light))
+;;(load-theme 'mccarthy t)
+;;(load-theme 'mccarthy t)
+(add-to-list 'default-frame-alist '(background-mode . dark))
 
 ;; scroll
 (setq scroll-margin 5
@@ -51,3 +52,9 @@ scroll-step 1)
 								 (t default-color))))
 				(set-face-background 'mode-line (car color))
 				           (set-face-foreground 'mode-line (cdr color))))))
+
+;; mouse support for terminal
+(require 'mouse)
+(xterm-mouse-mode t)
+(defun track-mouse (e))
+(setq mouse-sel-mode t)
