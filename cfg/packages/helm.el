@@ -15,8 +15,6 @@
 (evil-leader/set-key "ff" 'helm-projectile-find-file)
 (evil-leader/set-key "fc" 'helm-find-files)
 (evil-leader/set-key "bo" 'helm-bookmarks)
-(evil-leader/set-key "wo" 'evil-ace-jump-word-mode)
-(evil-leader/set-key "ca" 'evil-ace-jump-char-mode)
 (define-key evil-normal-state-map (kbd ",") (kbd ":"))
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "M-x") 'helm-M-x)

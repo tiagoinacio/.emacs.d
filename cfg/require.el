@@ -1,8 +1,9 @@
 (ensure-package-installed
  'ac-js2
  'ace-isearch
- 'ace-jump-mode
+ 'avy
  'ace-window
+ 'ace-jump-mode
  'auto-complete
  'auto-complete-clang
  'autopair
@@ -19,7 +20,6 @@
  'flycheck
  'flycheck-pos-tip
  'flymake-json
- 'minimap
  'git-gutter
  'git-gutter-fringe
  'helm-projectile
