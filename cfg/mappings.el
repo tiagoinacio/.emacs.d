@@ -1,9 +1,6 @@
 ;; Leader
 (define-key evil-normal-state-map "," 'evil-ex)
 
-;; Reload configuration
-(evil-leader/set-key "re" 'eval-buffer)
-
 ;; Page Up and Page Down
 (define-key evil-normal-state-map (kbd "C-k") (lambda ()
                     (interactive)
@@ -79,6 +76,13 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 ;; Frame
 (evil-leader/set-key "sw" 'other-frame)
 
+;; Reload current file
+(evil-leader/set-key "r."
+  (load-file (buffer-file-name)))
+
+(evil-leader/set-key "re"
+  (load "~/.emacs"))
+
 ;; Tags
 (evil-leader/set-key "ft" 'find-tag)
 
@@ -92,3 +96,14 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (setq mac-option-modifier nil
       mac-command-modifier 'meta
       x-select-enable-clipboard t)
+
+(evil-define-motion evil-last-non-blank (count)
+  "Move the cursor to the last non-blank character
+on the current line. If COUNT is given, move COUNT - 1
+lines downward first."
+  :type inclusive
+  (evil-end-of-line count)
+  (re-search-backward "^\\|[^[:space:]]")
+  (setq evil-this-type (if (eolp) 'exclusive 'inclusive)))
+(define-key evil-motion-state-map "g$" 'evil-end-of-line)
+(define-key evil-motion-state-map "$" 'evil-last-non-blank)

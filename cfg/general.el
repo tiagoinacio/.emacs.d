@@ -35,6 +35,9 @@
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 (setq mode-line-format nil)
 
+;; Color Themes
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+
 ;; Prompts Yes or No
 (fset 'yes-or-no-p 'y-or-n-p)
 
