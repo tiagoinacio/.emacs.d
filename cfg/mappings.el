@@ -57,19 +57,20 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
 
 ;; Window
-(evil-leader/set-key "vs" 'split-window-right)
-(evil-leader/set-key "hs" 'split-window-below)
+(evil-leader/set-key "wo" 'only)
+(evil-leader/set-key "wv" 'split-window-right)
+(evil-leader/set-key "wh" 'split-window-below)
 (evil-leader/set-key "wd" 'delete-window)
-(evil-leader/set-key "fu" 'toggle-frame-fullscreen)
-(evil-leader/set-key "ma" 'toggle-frame-maximized)
+(evil-leader/set-key "wf" 'toggle-frame-fullscreen)
+(evil-leader/set-key "wm" 'toggle-frame-maximized)
 
 ;; Buffers
 (evil-leader/set-key "bd" 'kill-this-buffer)
 (evil-leader/set-key "ba" 'kill-some-buffers)
-(evil-leader/set-key "on" 'kill-other-buffers)
+(evil-leader/set-key "bo" 'kill-other-buffers)
 (evil-leader/set-key "qa" 'save-buffers-kill-terminal)
 (evil-leader/set-key "ya" 'my-put-file-name-on-clipboard)
-(evil-leader/set-key "sa" 'sav!)
+(evil-leader/set-key "bw" 'save-buffer)
 (define-key evil-normal-state-map "-" 'switch-to-prev-buffer)
 (define-key evil-normal-state-map "+" 'switch-to-next-buffer)
 
@@ -77,17 +78,13 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (evil-leader/set-key "sw" 'other-frame)
 
 ;; Reload current file
-(evil-leader/set-key "r."
-  (load-file (buffer-file-name)))
+(evil-leader/set-key "r." 'load-file)
 
 (evil-leader/set-key "re"
   (load "~/.emacs"))
 
 ;; Tags
-(evil-leader/set-key "ft" 'find-tag)
-
-;; don't prompt when finding a tag
-(evil-leader/set-key "fw" 'find-tag-no-prompt)
+(evil-leader/set-key "pt" 'projectile-find-tag)
 
 ;; camelcase to _
 (evil-leader/set-key "ca" 'toggle-camelcase-underscores)

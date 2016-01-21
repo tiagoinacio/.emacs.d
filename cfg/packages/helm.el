@@ -8,6 +8,8 @@
 (setq helm-quick-update t)
 (setq helm-bookmark-show-location t)
 (setq helm-buffers-fuzzy-matching t)
+(setq helm-ag-fuzzy-match t)
+(setq helm-ag-use-grep-ignore-list t)
 (evil-leader/set-key "ls" 'helm-buffers-list)
 (helm-mode 1)
 

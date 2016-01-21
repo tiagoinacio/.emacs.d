@@ -3,7 +3,6 @@
 (helm-projectile-on)
 (evil-leader/set-key "TAB" 'helm-projectile-find-file)
 (evil-leader/set-key "cp" 'helm-projectile-find-file)
-(evil-leader/set-key "ff" 'helm-projectile-ag)
+(evil-leader/set-key "ff" 'helm-do-ag-project-root)
 (evil-leader/set-key "fp" 'helm-projectile-switch-project)
 (evil-leader/set-key "fd" 'helm-projectile-find-dir)
-(evil-leader/set-key "ls" 'helm-projectile-switch-to-buffer)

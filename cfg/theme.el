@@ -27,6 +27,9 @@ scroll-step 1)
 (setq evil-replace-state-cursor '("red" bar))
 (setq evil-operator-state-cursor '("red" hollow))
 
+;; Remove tabs
+(setq-default indent-tabs-mode nil)
+
 ;; Menu Bar
 (menu-bar-mode -1) ;; Menu Bar
 (menu-bar-mode -1) ;; Scoll Bar
