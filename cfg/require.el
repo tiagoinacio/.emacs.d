@@ -18,6 +18,7 @@
  'evil-visualstar
  'fill-column-indicator
  'flycheck
+ 'fzf
  'flycheck-pos-tip
  'flymake-json
  'git-gutter

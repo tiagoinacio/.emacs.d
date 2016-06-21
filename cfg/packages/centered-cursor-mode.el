@@ -1,2 +1,2 @@
-;; (require 'centered-cursor-mode)
-;; (global-centered-cursor-mode +1)
+(require 'centered-cursor-mode)
+(global-centered-cursor-mode +1)

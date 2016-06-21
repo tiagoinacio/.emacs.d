@@ -6,5 +6,9 @@
 (evil-leader/set-key "ff" 'helm-do-ag-project-root)
 (evil-leader/set-key "fp" 'helm-projectile-switch-project)
 (evil-leader/set-key "fd" 'helm-projectile-find-dir)
+(evil-leader/set-key "cd" 'helm-projectile-find-dir)
+(add-hook 'find-file-hook
+          (lambda ()
+                        (setq default-directory command-line-default-directory)))
 
 (setq projectile-globally-ignored-files '("*.txt" "*.o" "*.so" "*.el#" "*~" "backups/*" "git/" "baseChanges/" "node-modules" "vendor"))

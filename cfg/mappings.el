@@ -11,6 +11,7 @@
 
 ;; Mouse
 (global-set-key [C-S-mouse-1] 'find-tag-no-prompt)
+
 ;; (global-set-key [down-mouse-3] 'menu-choice)
 
 ;; esc quits
@@ -23,28 +24,28 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
       (setq deactivate-mark  t)
     (when (get-buffer "*Completions*") (delete-windows-on "*Completions*"))
     (abort-recursive-edit)))
-(define-key evil-normal-state-map [escape] 'keyboard-quit)
-(define-key evil-visual-state-map [escape] 'keyboard-quit)
-(define-key minibuffer-local-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-ns-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-completion-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-must-match-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
-(global-set-key [escape] 'evil-exit-emacs-state)
+(define-key evil-normal-state-map ["jk"] 'keyboard-quit)
+(define-key evil-visual-state-map ["jk"] 'keyboard-quit)
+(define-key minibuffer-local-map ["jk"] 'minibuffer-keyboard-quit)
+(define-key minibuffer-local-ns-map ["jk"] 'minibuffer-keyboard-quit)
+(define-key minibuffer-local-completion-map ["jk"] 'minibuffer-keyboard-quit)
+(define-key minibuffer-local-must-match-map ["jk"] 'minibuffer-keyboard-quit)
+(define-key minibuffer-local-isearch-map ["jk"] 'minibuffer-keyboard-quit)
+(global-set-key ["jk"] 'evil-exit-emacs-state)
 
 ;; Navigate through lines
 (define-key evil-visual-state-map "J"
-  (lambda () (interactive) (next-line 3)))
+  (lambda () (interactive) (next-line 5)))
 (define-key evil-visual-state-map "K"
-  (lambda () (interactive) (previous-line 3)))
+  (lambda () (interactive) (previous-line 5)))
 (define-key evil-normal-state-map "J"
-  (lambda () (interactive) (next-line 3)))
+  (lambda () (interactive) (next-line 5)))
 (define-key evil-normal-state-map "K"
-  (lambda () (interactive) (previous-line 3)))
+  (lambda () (interactive) (previous-line 5)))
 (define-key evil-normal-state-map "H"
-  (lambda () (interactive) (backward-char 3)))
+  (lambda () (interactive) (backward-char 5)))
 (define-key evil-normal-state-map "L"
-  (lambda () (interactive) (forward-char 3)))
+  (lambda () (interactive) (forward-char 5)))
 
 ;; Camel Case Motion
 (define-key evil-normal-state-map "´" 'subword-forward)
@@ -78,13 +79,11 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (evil-leader/set-key "sw" 'other-frame)
 
 ;; Reload current file
-(evil-leader/set-key "r." 'load-file)
-
-(evil-leader/set-key "re"
-  (load "~/.emacs"))
+(evil-leader/set-key "s." 'load-file)
+(evil-leader/set-key "sv" (lambda() (interactive) (load-file "~/.emacs")))
 
 ;; Tags
-(evil-leader/set-key "pt" 'projectile-find-tag)
+(evil-leader/set-key "ta" 'projectile-find-tag)
 
 ;; camelcase to _
 (evil-leader/set-key "ca" 'toggle-camelcase-underscores)
