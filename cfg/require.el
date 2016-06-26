@@ -22,6 +22,7 @@
  'flycheck-pos-tip
  'flymake-json
  'git-gutter
+ 'git-gutter+
  'git-gutter-fringe
  'helm-projectile
  'helm-swoop
@@ -37,6 +38,7 @@
  'sublime-themes
  'tern
  'tern-auto-complete
+ 'skewer-mode
  'w3
  'yasnippet
 )
