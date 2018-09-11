@@ -9,6 +9,7 @@
  'autopair
  'centered-cursor-mode
  'diff-hl
+ 'color-theme
  'diminish
  'rainbow-mode
  'elisp-slime-nav
